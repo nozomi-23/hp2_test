@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+  font-size: 18px;
+  color: #000;
+  letter-spacing: 3%;
+  font-family: 'Noto Serif JP', serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* =====================
+共通レイアウト
+========================*/
+/* =====================
+共通パーツ
+========================*/
+/* =====================
+header
+========================*/
+header {
+  background: #000;
+}
+
+.header_inner {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_nav ul {
+display: flex;
+}
+
+.header_item a {
+  color: #fff;
+}

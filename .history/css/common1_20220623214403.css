@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+  font-size: 18px;
+  color: #000;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* =====================
+共通
+========================*/

@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+/* =====================
+fv
+========================*/
+
+.bg_img_wrapper {
+  background: url(../img/fv_img.png) no-repeat center;
+  width: 100%;
+  height: 70vh;
+}
