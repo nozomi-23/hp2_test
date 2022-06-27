@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* =====================
+news
+========================*/
+
+.news_all {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.news_block1 {
+  width: 30%;
+  height: auto;
+}
+
+.news_block2 {
+  w25
+}
+.news_item_txt {
+  display: flex;
+}
+
+.news_item_txt .topics {
+  color: #A71414;
+  border: solid 1px #A71414;
+}

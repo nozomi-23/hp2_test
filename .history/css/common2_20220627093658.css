@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+/* =====================
+fv
+========================*/
+.service_fv_wrapper {
+  display: flex;
+  position: relative;
+}
+
+.service_fv_img {
+  position: absolute;
+  z-index: 1;
+  top: 4%;
+  left: 0;
+}
+
+.service_fv_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.fv_txt_wrapper_2 {
+  position: relative;
+  width: 30%;
+  height: 68vh;
+}
+
+.fv_ttl_wrapper {
+  width: 70%;
+  height: 68vh;
+  background: #210E0E;
+  align-items: center;
+  display: flex;
+
+}
+
+.service_fv_ttl {
+  color: #fff;
+  font-weight: bold;
+  font-size: 4.2rem;
+  margin-left: auto;
+  padding-right: 0.5em;
+  z-index: 3;
+}
+
+.top_arrow_txt {
+  position: absolute;
+  bottom: 4%;
+  left: 45%;
+  transform: rotate(270deg);
+  font-weight: bold;
+  font-size: 0.95rem;
+  z-index: 3;
+}
+
+.top_arrow_txt::after {
+  content: "";
+  width: 70px;
+  border-bottom: solid 1px;
+  display: inline-block;
+  position: absolute;
+  bottom: 40%;
+  left: 120%;
+}
+
+/* =====================
+パンくずリスト
+========================*/
+.breadcrumb_list {
+  display: flex;
+}
+
+.breadcrumb_item::after {
+  content: ">";
+  padding: 0 1rem;
+}
+
+.breadcrumb_item:last-child::after {
+  content: "";
+}
+
+.breadcrumb_item .color {
+  color: #A71414;
+}
+/* =====================
+レスポンシブ  768
+========================*/
+@media screen and (max-width: 768px) {
+  .sns_icon.sns_icon1,
+  .sns_icon.sns_icon2 {
+    font-size: 1.25rem
+  }
+}
+/* =====================
+レスポンシブ  480
+========================*/
+@media screen and (max-width: 480px) {
+  .fv_ttl_wrapper {
+    height: 30vh;
+  }
+
+  .fv_txt_wrapper_2 {
+    height: 30vh;
+  }
+}
+

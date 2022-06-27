@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/* =====================
+company
+========================*/
+.company_all {
+  padding: 7%;
+  display: flex;
+  background: #F8F8F8;
+  box-shadow: 5px 5px 4px #e3e2e2;
+}
+
+.company_list {
+  width: 50%;
+}
+
+.company_item {
+  margin-bottom: 2.7rem;
+}
+
+
+.com_ttl {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+/* =====================
+Board Member
+========================*/
+
+.mem_all {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.mem_item {
+  width: 40%;
+  height: auto;
+}
+
+.mem_item_img {
+  width: 100%;
+}
+
+.mem_item_img {
+  width: 100%;
+  
+}

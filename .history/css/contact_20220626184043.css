@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/* =====================
+contact
+========================*/
+
+.contact_intro_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact_intro_txt {
+  width: 60%;
+  height: auto;
+}
+
+.contact_intro_img {
+  width: 40px;
+  height: auto;
+}

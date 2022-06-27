@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/* =====================
+contact
+========================*/
+
+.contact_intro_wrapper {
+  display: flex;
+}

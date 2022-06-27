@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+
+/* =====================
+service_intro
+========================*/
+.service_bg {
+  position: relative;
+}
+
+.service_bg::before {
+  content: "";
+  width: 100%;
+  height: 120vh;
+  background-color: #441414;
+  transform: skewY(-10.56deg);
+  position: absolute;
+  top: 33%;
+  left: 0;
+  z-index: -1;
+}
+.service_tex {
+  text-align: center;
+}
+
+.service_intro_all {
+  margin: 15% 0;
+}
+
+.service_txt {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.intro_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.intro_item {
+  width: 40%;
+  height: auto;
+  margin-bottom: 19%;
+  border: solid 1px #441414;
+  background: #fff;
+}
+
+
+.intro_item_img img {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+}
+
+.intro_item_txt {
+  padding: 5%;}
+
+.intro_txt_ttl {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.intro_txt_txt {
+  position: relative;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.intro_item.intro_item_2 {
+  position: relative;
+  top: 7rem;
+}
+
+.intro_item.intro_item_4 {
+  position: relative;
+  top: 7rem;
+}
+
+/* =====================
+service_contact
+========================*/
+.service_contact_all {
+  padding: 8%;
+  box-shadow: 5px 5px 20px #8B8B8B;
+}
+
+.service_contact_all p {
+  text-align: center;
+  margin-bottom: 7%;
+}
+
+/* =====================
+レスポンシブ  480
+========================*/
+@media screen and (max-width: 480px){
+
+  .intro_list {
+    display: block;
+  }
+
+  .intro_item {
+    width: 100%;
+  }
+
+  .intro_item.intro_item_2,
+  .intro_item.intro_item_3,
+  .intro_item.intro_item_4 {
+    top: 0;
+  }
+
+    .service_contact_all
+}
+

@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+body {
+  font-size: 18px;
+  color: #000;
+  letter-spacing: 0.03em;
+  font-family: 'Noto Serif JP', serif;
+  line-height: 1.3;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+/* =====================
+共通レイアウト
+========================*/
+
+.section {
+  margin: 10% 0;
+  position: relative;
+}
+
+.inner {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  /* background-color: aqua; */
+}
+
+/* =====================
+共通パーツ
+========================*/
+
+.section_ttl {
+  position: relative;
+  font-size: 2rem;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 4.5%;
+  padding: 1%;
+}
+
+.section_ttl::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 34%;
+  display: inline-block;
+  width: 3rem;
+  border-bottom: 5px solid #A71414;
+}
+
+.btn {
+  width: 25%;
+  margin: 0 auto;
+}
+
+.btn a {
+  text-align: center;
+  color: #fff;
+  background: #210E0E;
+  font-weight: bold;
+  line-height: 4;
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.btn a:hover {
+  opacity: 0.8;
+  transition: all 0.5s;
+}
+/* =====================
+header
+========================*/
+header {
+  background: #000;
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7%;
+}
+
+.header_logo {
+  width: 20%;
+}
+.header_logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.header_nav {
+  width: 60%;
+  height: auto;
+}
+
+.header_nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.header_nav ul li {
+  padding: 1.5% 6%;
+  border-left: solid 1px #fff;
+}
+
+.header_nav ul li:last-child {
+  border-right: solid 1px #fff;
+}
+
+.header_nav ul li a {
+  display: block;
+  color: #fff;
+  font-weight: bold;
+}
+
+.header_nav ul li a:hover {
+  color: #AB9999;
+}
+
+header .drawer {
+  visibility: hidden;
+}
+
+/* =====================
+footer
+========================*/
+
+footer {
+  background: #000;
+}
+
+.footer_logo {
+  margin: 0 auto;
+}
+
+.footer_logo 

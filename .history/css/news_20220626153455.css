@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/* =====================
+news
+========================*/
+
+.news_all {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.news_block1 {
+  w30
+}
+.news_item_txt {
+  display: flex;
+}
+
+.news_item_txt .topics {
+  color: #A71414;
+  border: solid 1px #A71414;
+}

@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+/* =====================
+fv
+========================*/
+
+.first_view {
+  position: relative;
+  height: 100vh;
+}
+
+.first_view::before {
+  content: "";
+  width: 70%;
+  height: 100%;
+  background: #210E0E;
+  display: block;
+  position: absolute;
+  top:0;
+  right: 0;
+}
+
+.bg_img_wrapper {
+  position: absolute;
+  width: 100%;
+  height: 75vh;
+}
+
+.bg_img_wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.top_ttl {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Bitter', serif;
+  font-weight: 300;
+  font-size: 6rem;
+  color: #fff;
+  text-shadow: 0px 0px 20px #FFFFFF;
+  letter-spacing: 0.05em;
+}
+.top_ttl::after {
+  content: "";
+  bottom: -45px;
+  left: 15px;
+  display: block;
+  width: 5.3em;
+  border: solid 1px #fff;
+  position: absolute;
+  bottom: -45px;
+  left: 15px;
+}
+
+.fv_txt_wrapper {
+  position: absolute;
+  top: 100%;
+  left: 15%;
+  transform: rotate(270deg);
+  z-index: 99;
+}
+
+.top_arrow_txt {
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.top_arrow_txt::after {
+  content: "";
+  width: 60px;
+  border-bottom: solid 1px ;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 115%;
+}
+/* =====================
+service
+========================*/
+
+.service_tex {
+  text-align: center;
+}
+
+.service_all {
+  margin: 10% 0;
+}
+
+.service_txt {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.service_item {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service_list {
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.service_list img:hover {
+  transform: scale(1.8
+  );
+}
+
+.service_list img {
+  width: 100%;
+  height: 100%;
+  transition: all 2s;
+}
+
+.service_list span {
+  position: absolute;
+  z-index: 1;
+}
+
+/* =====================
+about
+========================*/
+.about_wrapper_all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about_wrapper_tex {
+  width: 44%;
+  height: auto;
+}
+
+.about_wrapper_tex p {
+  padding: 0.5em;
+}
+
+.about_wrapper_img {
+  width: 50%;
+  height: auto;
+}
+
+.about_wrapper_img img {
+  width: 100%;
+  height: 100%;
+}

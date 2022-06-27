@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* =====================
+news
+========================*/
+
+.news_all {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.news_block1 {
+  width: 50%;
+  height: auto;
+  background-color: aqua;
+}
+
+.news_item {
+  m
+  border-bottom: solid 1px;
+}
+
+.news_block2 {
+  width: 25%;
+  height: auto;
+    background-color: aqua;
+}
+.news_item_txt {
+  display: flex;
+  padding-bottom: 2rem;
+}
+
+.news_item_txt .topics {
+  color: #A71414;
+  border: solid 1px #A71414;
+  margin: 0 5%;
+}

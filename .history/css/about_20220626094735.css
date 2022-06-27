@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/* =====================
+company
+========================*/
+.company_all {
+  display: flex;
+}

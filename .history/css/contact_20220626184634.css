@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* =====================
+contact
+========================*/
+
+.contact_intro_wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact_intro_wrapper::before {
+  
+}
+
+.contact_intro_txt {
+  width: 48%;
+  height: auto;
+}
+
+.contact_intro_txt p {
+  margin-top: 2rem;
+}
+
+.contact_intro_img {
+  width: 40%;
+  height: auto;
+}
+
+.contact_intro_img img {
+  width: 100%;
+  height: 100%;
+}

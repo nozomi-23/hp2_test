@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/* =====================
+company
+========================*/
+.company_all {
+  padding: 5%;
+  display: flex;
+  background: #F8F8F8;
+  box-shadow: 5px 5;
+}
+
+.company_list {
+  width: 50%;
+}

@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+/* =====================
+fv
+========================*/
+
+/* .first_view {
+  position: relative;
+  height: 100vh;
+}
+
+.first_view::before {
+  content: "";
+  width: 70%;
+  height: 100%;
+  background: #210E0E;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bg_img_wrapper {
+  position: absolute;
+  width: 100%;
+  height: 75vh;
+}
+
+.bg_img_wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.top_ttl {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Bitter', serif;
+  font-weight: 300;
+  font-size: 6rem;
+  color: #fff;
+  text-shadow: 0px 0px 20px #FFFFFF;
+  letter-spacing: 0.05em;
+}
+
+.top_ttl::after {
+  content: "";
+  bottom: -45px;
+  left: 15px;
+  display: block;
+  width: 5.3em;
+  border: solid 1px #fff;
+  position: absolute;
+  bottom: -45px;
+  left: 15px;
+}
+
+.fv_txt_wrapper {
+  position: absolute;
+  top: 100%;
+  left: 15%;
+  transform: rotate(270deg);
+  z-index: 99;
+}
+
+.top_arrow_txt {
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.top_arrow_txt::after {
+  content: "";
+  width: 60px;
+  border-bottom: solid 1px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 115%;
+} */
+.service_fv_wrapper {
+  display: flex;
+  position: relative;
+}
+
+.fv_txt_wrapper_2 {
+  position: relative;
+  width: 30%;
+  height: 80vh;
+
+}
+
+.fv_ttl_wrapper {
+  width: 70%;
+  height: 80vh;
+  background: #210E0E;
+  align-items: center;
+  display: flex;
+
+}
+
+.service_fv_ttl {
+  color: #fff;
+  font-weight: bold;
+  font-size: 4.2rem;
+  margin-left: auto;
+  padding-right: 0.5em;
+}
+
+/* .fv_txt_wrapper {
+  position: absolute;
+  top: 100%;
+  left: 15%;
+  transform: rotate(270deg);
+  z-index: 99;
+  background-color: aquamarine;
+} */
+
+.top_arrow_txt {
+  position: absolute;
+  bottom: 4%;
+  left: 45%;
+  transform: rotate(270deg);
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.top_arrow_txt::after {
+  content: "";
+  width: 60px;
+  border-bottom: solid 1px;
+  display: inline-block;
+  position: absolute;
+  bottom: 40%;
+  left: 120%;
+}

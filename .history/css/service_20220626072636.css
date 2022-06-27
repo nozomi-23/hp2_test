@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+/* =====================
+service_intro
+========================*/
+.service_tex {
+  text-align: center;
+}
+
+.service_intro_all {
+  margin: 10% 0;
+}
+
+.service_txt {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.intro_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.intro_item {
+  width: 40%;
+  height: auto;
+}
+
+
+.intro_item_img img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
